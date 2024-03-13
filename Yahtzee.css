@@ -1,0 +1,71 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .grid-header {
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .dice-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 0px;
+    background-color: #ffe563;
+    padding: 10px;
+}
+  
+  .dice-item {
+    display: grid;
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 50%;
+  }
+  
+  .score-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    padding: 10px;
+    background: linear-gradient(to bottom, #ffe563, #b8c2ff);
+}
+  
+  .score-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  
+  .grid-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .score-input{
+    width: 50px;
+  }
+  .header-cell {
+    text-align: left;
+}
+
+  .nameCell {
+    width: 100px;
+  }     
+
+  .dice-checkbox {
+    margin-left: 0px;
+    margin-right: 50px;
+  }
